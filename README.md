@@ -16,7 +16,7 @@ Please  make a pull request if have any feature additions. But it shouldn't make
 
     **MAX_TRIES** - Maximum failed attempts before it gives up calls you
 
-    **COMMAND1** - Command to update your relayer client 1
+    **COMMAND1** - Command to update your relayer client 1. Use `docker-compose exec -T` when using docker-compose exec
 
     **COMMAND2** - Command to update your relayer client 1
 
