@@ -2,7 +2,7 @@
 
 I have made an automated script to update the relayer clients with tunable config, error handling and failure handling. Its been working for me very well, but I can't assure it handles every case
 
-Please  make a pull request if have any feature additions. But it shouldn't make the script less reliable than it is right now. Thanks :)
+Please  make a pull request if have any feature additions. But it shouldn't make the script less reliable than it is right now. Thanks!
 
 ## Quick Start
 
@@ -18,7 +18,8 @@ COMMAND2="rly tx raw update-client your-chain-id gameofzoneshub-1a xxxxxxxxx"
 bash script.sh
 ```
 
-You can see the output for the first run. Now sleep easy during GoZ
+You can see the output for the first run. Now sleep easy during GoZ.
+
 For failure handling and ccall alerts, read below.
 
 ## How to use
