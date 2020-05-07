@@ -9,8 +9,8 @@ Please  make a pull request if have any feature additions. But it shouldn't make
 1. Update commands in `script.sh`. Use `docker-compose exec -T` in case you are running via docker-compose.
 
 ```bash
-COMMAND1=" rly tx raw update-client gameofzoneshub-1a your-chain-id xxxxxxxxx"
-COMMAND2=" rly tx raw update-client your-chain-id gameofzoneshub-1a xxxxxxxxx"
+COMMAND1="rly tx raw update-client gameofzoneshub-1a your-chain-id xxxxxxxxx"
+COMMAND2="rly tx raw update-client your-chain-id gameofzoneshub-1a xxxxxxxxx"
 ```
 2. Run the script
 
@@ -18,8 +18,8 @@ COMMAND2=" rly tx raw update-client your-chain-id gameofzoneshub-1a xxxxxxxxx"
 bash script.sh
 ```
 
-You can see the output for the first run. Now sleep easy during GoZ ;)
-
+You can see the output for the first run. Now sleep easy during GoZ
+For failure handling and ccall alerts, read below.
 
 ## How to use
 
