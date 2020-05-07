@@ -4,7 +4,24 @@ I have made an automated script to update the relayer clients with tunable confi
 
 Please  make a pull request if have any feature additions. But it shouldn't make the script less reliable than it is right now. Thanks :)
 
-## Get started
+## Quick Start
+
+1. Update commands in `script.sh`. Use `docker-compose exec -T` in case you are running via docker-compose.
+
+```bash
+COMMAND1=" rly tx raw update-client gameofzoneshub-1a your-chain-id xxxxxxxxx"
+COMMAND2=" rly tx raw update-client your-chain-id gameofzoneshub-1a xxxxxxxxx"
+```
+2. Run the script
+
+```bash
+bash script.sh
+```
+
+You can see the output for the first run. Now sleep easy during GoZ ;)
+
+
+## How to use
 
 1. Update the config section and handle failure to your preference
 
@@ -29,10 +46,6 @@ Please  make a pull request if have any feature additions. But it shouldn't make
 2. Run the script in tmux or use something like systemd to keep it running
 
     > $ ./script.sh
-
-You can see the output for the first run. 
-
-Now sleep easy during GoZ ;)
 
 
 ## How it works
